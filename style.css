@@ -51,7 +51,7 @@ footer {
 }
 
 footer a {
-    color: #cb04f3;
+    color: #7a507d;
     text-decoration: underline;
 }
 
@@ -230,4 +230,27 @@ footer a {
     color: #7a507d;
     margin-top: 5px;
     margin-bottom: 8px;
+}
+
+.plus {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.plus div {
+    width: 80%;
+    border-radius: 10px;
+    background-color: #7a507d;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.plus a {
+    color: #fddfff;
+    text-decoration: underline;
 }
