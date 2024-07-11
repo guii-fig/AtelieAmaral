@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    text-decoration: none;
+}
+
+body {
+    background-color: #f6edff;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fddfff;
+    box-shadow: 0 0 10px black;
+}
+
+header img {
+    width: 125px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 30px;
+    color: #7a507d;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive; 
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #fddfff;
+    margin-top: 150px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+}
+
+footer a {
+    color: #cb04f3;
+    text-decoration: underline;
+}
+
+#secret {
+    color: transparent;
+}
+
+/*Index page*/ 
+
+#welcome {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+
+#welcome h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7a507d;
+    font-family: "Dancing Script", cursive;                           
+}
+
+.copy {
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.copy-text {
+    margin-top: 10px;
+    color: #7a507d;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+
+}
+
+#catalogo-direction {
+    cursor: pointer;
+    background-color: transparent;
+    color: #7a507d;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: solid 3px;
+    border-color: #7a507d;
+}
+
+#catalogo-direction:hover {
+    border: none;
+    color: white;
+    background-color: #7a507d;
+}
+
+#navegation {
+    width: 100%;
+    height: 400px;
+}
+
+.copy h2 {
+    color: #7a507d;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+#guide {
+    font-family: "Dancing Script", cursive;
+    font-size: 23px;
+}
+
+.copy p {
+    color: #7a507d;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#slide-show {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;  
+    transition: 1s;
+    font-family: "Varela Round", sans-serif;  
+}
+
+#slide-show a {
+    width: 100%;
+}
+
+.slide {
+    width: 90%;
+    height: 190px;
+    border-radius: 20px;
+    transition: 1s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.slide h3 {
+    color: white;
+    -webkit-text-stroke: 0.3px black;
+    font-size: 15px;
+    margin-top: 5px;
+    position: relative;
+    top: 85%;
+}
+
+.slide:hover{
+    scale: 1.2;
+}
+.one {
+    background-image: url(tercos/01.jpg);
+    background-size: cover;
+}
+
+.two {
+    background-image: url(tercos/05.jpg);
+    background-size: cover;
+}
+
+.three {
+    background-image: url(tercos/11.jpg);
+    background-size: cover;
+}
+
+.four {
+    background-image: url(tercos/14.jpg);
+    background-size: cover;
+}
+
+
+/* Catálogo page*/
+
+
+#catalogo {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.content {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    width: 77%;
+    height: auto;
+    border-radius: 15px;
+    text-align: center;
+    transition: 1s;
+}
+
+.content:hover {
+    scale: 1.2;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+}
+
+.content p {
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+    color: #7a507d;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
