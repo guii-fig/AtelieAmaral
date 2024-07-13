@@ -258,3 +258,41 @@ footer a {
     color: #fddfff;
     text-decoration: underline;
 }
+
+/* Quebra de página*/
+
+@media(min-width: 860px) {
+    #welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copy {
+        width: 50%;
+        left: 0%;
+    }
+
+    #navegation {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #slide-show a {
+        width: 80%;
+        height: 305px;
+    }
+
+    .slide {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .slide h3 {
+        font-size: 25px;
+        -webkit-text-stroke: 0;
+    }
+}
